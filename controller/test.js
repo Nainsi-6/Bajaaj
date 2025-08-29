@@ -12,7 +12,7 @@ const handleBfhlRequest = (req, res) => {
     }
 
     const { oddNumbers, evenNumbers, alphabets, specialCharacters, sum, concatString } = processData(data);
-    const name = "Nainsi Gupta";
+    const name = "Nainsi_Gupta";
     const email = "nainsigupta2022@vitbhopal.ac.in"
     const response = {
       is_success: true,
